@@ -1,14 +1,23 @@
-body.body_color{
+.body_color{
   background-color: #3D3D3DFF;
 }
 p{
-  color:#25CD3CFF;
+  /*color:#25CD3CFF;*/
+  color: #FFFF;
 }
 
 h6{
-  color: #25CD3CFF;
+  color: #FFFF;
 }
 
 h3{
   color: #F65F56FF;
+}
+.center_div{
+  width: 100vw;
+         height: 100vh;
+         display: flex;
+         flex-direction: column;
+       justify-content: center;
+       align-items: center;
 }
